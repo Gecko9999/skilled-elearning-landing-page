@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+*, *::after, *::before {box-sizing: border-box;}
+
+body {background-color: #F2F2F2;
+font-family: 'Plus Jakarta Sans', sans-serif;
+min-height: 100vh;
+padding: 10px;
+max-width: 375px;
+margin: 0 auto;
+
+}
+
+
+header {display: flex;
+justify-content: space-between;
+align-items: center;}
+
+a{text-decoration: none;}
+
+header a {
+padding: 10px 30px;
+background-color: #13183F;
+color: white;
+border-radius: 30px;}
+
+h1 {font-size: 40px;
+font-weight: 800;
+color: #13183F;
+line-height: 50.4px;
+margin-top: 30px;
+margin-bottom: 30px;}
+
+main p {font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+color: #83869A;
+margin-bottom: 30px;
+}
+
+main a {
+padding: 15px 25px;
+background:linear-gradient(#F02AA6,#FF6F48);
+color: white;
+border-radius: 40px;
+}
+
+main img {margin-top: 40px;}
+
+.info {background:linear-gradient(#F02AA6,#FF6F48);
+font-size: 24px;line-height: 40px;font-weight: 800;color: white;
+padding: 20px ; }
+
+h2{color: #13183F;font-size: 20px;font-weight: 800;
+	}
+
+section div {padding: 0px 10px 35px 25px;background-color: white;
+margin-bottom: 45px;border-radius: 6px; }
+
+section p{font-size: 16px;line-height: 26px;font-weight: 500;color: #83869A;
+	padding: 15px 0px;}
+
+section img {position: relative;
+top: -30px;left: 10px;}
+
+section a {color: #F74780;font-size: 18px;}
+
+a{font-weight: 700;}
+
+footer {background-color: #13183F;
+padding: 45px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+footer a {color: white;background: linear-gradient(#4851FF,#F02AA6);padding: 15px 25px;border-radius: 40px;font-size: 16px;}
+
+picture img {width: 100%;}
+
+@media (min-width:768px){
+body{
+padding: 20px;
+min-width: 100vw;}
+
+
+.container{display: flex;
+/* margin-top: 20px; */
+
+align-items: center;
+}
+
+.container_boxone{width:400px;}
+
+.container_boxtwo{
+left: 400px;
+}
+
+
+
+
+main img {margin-top: 0px;
+}
+
+}
